@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  SpeedLocator
-//
-//  Created by nisha rani on 17/06/17.
-//  Copyright © 2017 nisha rani. All rights reserved.
-//
-
 import UIKit
 import CoreLocation
 import MapKit
@@ -28,7 +20,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var BtnStop: UIButton!
     @IBOutlet weak var SpeedTrackValue: UIButton!
   //  @IBOutlet weak var MapView: MKMapView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

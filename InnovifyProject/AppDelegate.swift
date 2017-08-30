@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  SpeedLocator
-//
-//  Created by nisha rani on 17/06/17.
-//  Copyright © 2017 nisha rani. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
