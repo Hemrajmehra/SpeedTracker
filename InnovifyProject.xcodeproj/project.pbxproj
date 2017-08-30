@@ -8,20 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		2B90B12A1F568E1C005E9972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B1291F568E1C005E9972 /* AppDelegate.swift */; };
-		2B90B12C1F568E1C005E9972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B12B1F568E1C005E9972 /* ViewController.swift */; };
 		2B90B12F1F568E1C005E9972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B90B12D1F568E1C005E9972 /* Main.storyboard */; };
 		2B90B1311F568E1C005E9972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B90B1301F568E1C005E9972 /* Assets.xcassets */; };
 		2B90B1341F568E1C005E9972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B90B1321F568E1C005E9972 /* LaunchScreen.storyboard */; };
+		2B90B1591F568E76005E9972 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B1471F568E76005E9972 /* FMDatabase.m */; };
+		2B90B15A1F568E76005E9972 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B1491F568E76005E9972 /* FMDatabaseAdditions.m */; };
+		2B90B15B1F568E76005E9972 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B14B1F568E76005E9972 /* FMDatabasePool.m */; };
+		2B90B15C1F568E76005E9972 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B14D1F568E76005E9972 /* FMDatabaseQueue.m */; };
+		2B90B15D1F568E76005E9972 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B1501F568E76005E9972 /* FMResultSet.m */; };
+		2B90B15E1F568E76005E9972 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B1531F568E76005E9972 /* DataModel.swift */; };
+		2B90B15F1F568E76005E9972 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B1541F568E76005E9972 /* DataViewModel.swift */; };
+		2B90B1601F568E76005E9972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90B1561F568E76005E9972 /* ViewController.swift */; };
+		2B90B1641F568FDF005E9972 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B90B1621F568FDF005E9972 /* libsqlite3.0.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2B90B1651F568FDF005E9972 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B90B1631F568FDF005E9972 /* libsqlite3.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2B90B1671F568FE8005E9972 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B90B1661F568FE8005E9972 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B90B1261F568E1C005E9972 /* InnovifyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnovifyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B90B1291F568E1C005E9972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B90B12B1F568E1C005E9972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B90B12E1F568E1C005E9972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B90B1301F568E1C005E9972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B90B1331F568E1C005E9972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B90B1351F568E1C005E9972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B90B13B1F568E33005E9972 /* InnovifyProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InnovifyProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B90B1461F568E76005E9972 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		2B90B1471F568E76005E9972 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		2B90B1481F568E76005E9972 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		2B90B1491F568E76005E9972 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		2B90B14A1F568E76005E9972 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		2B90B14B1F568E76005E9972 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		2B90B14C1F568E76005E9972 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		2B90B14D1F568E76005E9972 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		2B90B14E1F568E76005E9972 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		2B90B14F1F568E76005E9972 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		2B90B1501F568E76005E9972 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		2B90B1531F568E76005E9972 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		2B90B1541F568E76005E9972 /* DataViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		2B90B1561F568E76005E9972 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B90B1621F568FDF005E9972 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		2B90B1631F568FDF005E9972 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2B90B1661F568FE8005E9972 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B90B1671F568FE8005E9972 /* CoreLocation.framework in Frameworks */,
+				2B90B1641F568FDF005E9972 /* libsqlite3.0.tbd in Frameworks */,
+				2B90B1651F568FDF005E9972 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +70,7 @@
 			children = (
 				2B90B1281F568E1C005E9972 /* InnovifyProject */,
 				2B90B1271F568E1C005E9972 /* Products */,
+				2B90B1611F568FDE005E9972 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,62 @@
 		2B90B1281F568E1C005E9972 /* InnovifyProject */ = {
 			isa = PBXGroup;
 			children = (
+				2B90B1451F568E76005E9972 /* DB */,
+				2B90B1521F568E76005E9972 /* ModelClass */,
+				2B90B1551F568E76005E9972 /* ViewController */,
 				2B90B1291F568E1C005E9972 /* AppDelegate.swift */,
-				2B90B12B1F568E1C005E9972 /* ViewController.swift */,
 				2B90B12D1F568E1C005E9972 /* Main.storyboard */,
 				2B90B1301F568E1C005E9972 /* Assets.xcassets */,
 				2B90B1321F568E1C005E9972 /* LaunchScreen.storyboard */,
 				2B90B1351F568E1C005E9972 /* Info.plist */,
+				2B90B13B1F568E33005E9972 /* InnovifyProject-Bridging-Header.h */,
 			);
 			path = InnovifyProject;
+			sourceTree = "<group>";
+		};
+		2B90B1451F568E76005E9972 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				2B90B1461F568E76005E9972 /* FMDatabase.h */,
+				2B90B1471F568E76005E9972 /* FMDatabase.m */,
+				2B90B1481F568E76005E9972 /* FMDatabaseAdditions.h */,
+				2B90B1491F568E76005E9972 /* FMDatabaseAdditions.m */,
+				2B90B14A1F568E76005E9972 /* FMDatabasePool.h */,
+				2B90B14B1F568E76005E9972 /* FMDatabasePool.m */,
+				2B90B14C1F568E76005E9972 /* FMDatabaseQueue.h */,
+				2B90B14D1F568E76005E9972 /* FMDatabaseQueue.m */,
+				2B90B14E1F568E76005E9972 /* FMDB.h */,
+				2B90B14F1F568E76005E9972 /* FMResultSet.h */,
+				2B90B1501F568E76005E9972 /* FMResultSet.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		2B90B1521F568E76005E9972 /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				2B90B1531F568E76005E9972 /* DataModel.swift */,
+				2B90B1541F568E76005E9972 /* DataViewModel.swift */,
+			);
+			path = ModelClass;
+			sourceTree = "<group>";
+		};
+		2B90B1551F568E76005E9972 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B90B1561F568E76005E9972 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2B90B1611F568FDE005E9972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B90B1661F568FE8005E9972 /* CoreLocation.framework */,
+				2B90B1621F568FDF005E9972 /* libsqlite3.0.tbd */,
+				2B90B1631F568FDF005E9972 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +175,14 @@
 				TargetAttributes = {
 					2B90B1251F568E1C005E9972 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 27R2532KLU;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -136,8 +222,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B90B12C1F568E1C005E9972 /* ViewController.swift in Sources */,
+				2B90B15E1F568E76005E9972 /* DataModel.swift in Sources */,
+				2B90B1591F568E76005E9972 /* FMDatabase.m in Sources */,
+				2B90B15D1F568E76005E9972 /* FMResultSet.m in Sources */,
+				2B90B15B1F568E76005E9972 /* FMDatabasePool.m in Sources */,
+				2B90B1601F568E76005E9972 /* ViewController.swift in Sources */,
+				2B90B15F1F568E76005E9972 /* DataViewModel.swift in Sources */,
+				2B90B15A1F568E76005E9972 /* FMDatabaseAdditions.m in Sources */,
 				2B90B12A1F568E1C005E9972 /* AppDelegate.swift in Sources */,
+				2B90B15C1F568E76005E9972 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +353,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: WUDSTAY TRAVELS PRIVATE LIMITED (27R2532KLU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 27R2532KLU;
 				INFOPLIST_FILE = InnovifyProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = InnovifyProject.InnovifyProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Development.WudStay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c21d6ff9-7069-4c23-b687-cc3ed95d12cf";
+				PROVISIONING_PROFILE_SPECIFIER = WudstayDevelopmentCertificates;
+				SWIFT_OBJC_BRIDGING_HEADER = "InnovifyProject/InnovifyProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +374,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: WUDSTAY TRAVELS PRIVATE LIMITED (27R2532KLU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 27R2532KLU;
 				INFOPLIST_FILE = InnovifyProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = InnovifyProject.InnovifyProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Development.WudStay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c21d6ff9-7069-4c23-b687-cc3ed95d12cf";
+				PROVISIONING_PROFILE_SPECIFIER = WudstayDevelopmentCertificates;
+				SWIFT_OBJC_BRIDGING_HEADER = "InnovifyProject/InnovifyProject-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +409,7 @@
 				2B90B13A1F568E1C005E9972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
